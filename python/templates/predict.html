@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+</head>
+<body>
+	<h2>pred</h2>
+	<div>
+		<form method="POST" action="/predict" enctype="multipart/form-data">
+
+			<input type="file" name="image" id="image" placeholder="image" > </input>
+			<button type="Submit">Submit</button>
+			<button type="clear">Clear</button>
+		</form>
+	</div>
+	<div>{{val}}</div>
+</body>
+</html>

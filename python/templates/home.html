@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+</head>
+<body>
+	<h2>check val</h2>
+	<div>
+		<form method="POST" action="/home">
+			<input type="text" name="firstname" id="firstname" placeholder="FirstName"> </input>
+			<input type="text" name="lastname" id="lastname" placeholder="LastName"></input>
+			<button type="Submit">Submit</button>
+			<button type="clear">Clear</button>
+		</form>
+	</div>
+	<div>Your firstname is {{fn}} and lastname is {{ln}}</div>
+</body>
+</html>
